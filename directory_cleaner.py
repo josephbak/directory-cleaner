@@ -12,7 +12,8 @@ for x in lis:
     if x_fullpath==__file__: # skip the program file
         pass
     else:
-        if x[0] == '.': # skip the hiddens
+        #TODO: add functionality for windows hiddens
+        if x.startswith('.'): # skip the hiddens
             pass
         else:
             x_extension = x.split('.')[-1]
