@@ -4,6 +4,7 @@ This program is to clean files in a given directory according to their extension
 ## File List
 <ul>
     <li>directory_cleaner.py</li>
+	<li>main.py</li>
 </ul>
 
 ## How to run the program
